@@ -1,0 +1,11 @@
+[linux]
+linux-9484vm01-dns-1.canadacentral.cloudapp.azure.com
+linux-9484vm01-dns-2.canadacentral.cloudapp.azure.com
+linux-9484vm01-dns-3.canadacentral.cloudapp.azure.com
+
+[os:children]
+linux
+
+[linux:vars]
+ansible_user=bharath-n01609484
+ansible_connection=ssh
